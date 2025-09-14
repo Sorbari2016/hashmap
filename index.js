@@ -9,7 +9,11 @@ class HashMap {
     this.size = 0;
   }
 
+  hash(key) {
+  }
 
+  set(key, value) {
+  }
 
 }
 
