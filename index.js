@@ -1,15 +1,5 @@
 // Creating a hash map blueprint
 
-
-// Create a Node class 
-class Node {
-  constructor(value = null) {
-    this.value = value; 
-    this.nextNode = null; 
-  }
-}
-
-
 // 
 class HashMap {
   constructor(capacity = 16, loadFactor = 0.70 {
@@ -24,7 +14,7 @@ class HashMap {
 }
 
 
-export {LinkedList, Node}
+export {HashMap}
 
 
 
