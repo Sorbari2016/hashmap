@@ -14,7 +14,7 @@ class HashMap {
     this.size = 0; //keeps track of the number of key/value pair, items
   }
 
-  // Create a method to produce a value to access a bucket
+  // Create a method to produce an index to access a bucket
   hash(key) {
     let hashCode = 0;
     const primeNumber = 31;
